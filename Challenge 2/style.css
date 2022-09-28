@@ -1,0 +1,59 @@
+:root{
+    --darkGreen: #2F4B26;
+    --green: #3e885b;
+    --lightGreen: #85bda6;
+    --lightBlue: #bedcfe;
+    --seafoam: #c0d7bb;
+}
+header{
+    padding: 45px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: var(--lightGreen);
+    color: var(--darkGreen);
+
+}
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: var(--seafoam);
+}
+.picture  {
+    float: left;
+    width:  650px;
+    height: 250px;
+    object-fit: cover;
+
+}
+.pictureFirst  {
+    float: left;
+    width:  1500px;
+    height: 350px;
+    object-fit: cover;
+
+}
+.webTitle{
+    font-size: 30px;
+    text-align: left;
+}
+.headerLinks{
+    font-size: 20px;
+    text-align: right;
+}
+
+#aboutMe{
+    color: var(--darkGreen);
+    font-size: 25px;
+    text-align: center;
+}
+
+#contact{
+    color: var(--darkGreen);
+}
+
+#projects{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: var(--darkGreen);
+    background-color: var(--lightBlue);
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
